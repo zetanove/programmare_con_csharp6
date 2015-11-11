@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24606.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capitolo 2", "Capitolo 2", "{C78EB622-C69C-4379-B08B-EAB05F286A9E}"
 EndProject
@@ -26,6 +26,12 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capitolo 10", "Capitolo 10", "{DDAB2063-11D5-481D-B566-4D603B0DB7E9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWindowsForms", "Capitolo 10\HelloWindowsForms\HelloWindowsForms.csproj", "{9B604B86-B024-40EB-819A-3484C93E35B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capitolo 15", "Capitolo 15", "{EEDA57DD-471F-49A4-89F2-94A2503A0B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseWindowsForms", "Capitolo 15\DatabaseWindowsForms\DatabaseWindowsForms.csproj", "{FBFAB0E5-B87F-4AC2-9AC9-AA44323CD68B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqToSql", "Capitolo 15\LinqToSql\LinqToSql.csproj", "{E38F1D4D-1599-431E-86A9-E2F5B535A927}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,14 @@ Global
 		{9B604B86-B024-40EB-819A-3484C93E35B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B604B86-B024-40EB-819A-3484C93E35B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B604B86-B024-40EB-819A-3484C93E35B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBFAB0E5-B87F-4AC2-9AC9-AA44323CD68B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBFAB0E5-B87F-4AC2-9AC9-AA44323CD68B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBFAB0E5-B87F-4AC2-9AC9-AA44323CD68B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBFAB0E5-B87F-4AC2-9AC9-AA44323CD68B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E38F1D4D-1599-431E-86A9-E2F5B535A927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38F1D4D-1599-431E-86A9-E2F5B535A927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38F1D4D-1599-431E-86A9-E2F5B535A927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38F1D4D-1599-431E-86A9-E2F5B535A927}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +87,7 @@ Global
 		{61799C24-083A-478D-94FB-40149C68765E} = {A07DE2F2-9FDB-475B-BE6E-5C0062CC7DF1}
 		{8FFC6E24-F0E6-4A00-8942-5FAE590601AC} = {DA38B038-2D35-4B52-88B1-3934604279C2}
 		{9B604B86-B024-40EB-819A-3484C93E35B5} = {DDAB2063-11D5-481D-B566-4D603B0DB7E9}
+		{FBFAB0E5-B87F-4AC2-9AC9-AA44323CD68B} = {EEDA57DD-471F-49A4-89F2-94A2503A0B8F}
+		{E38F1D4D-1599-431E-86A9-E2F5B535A927} = {EEDA57DD-471F-49A4-89F2-94A2503A0B8F}
 	EndGlobalSection
 EndGlobal
