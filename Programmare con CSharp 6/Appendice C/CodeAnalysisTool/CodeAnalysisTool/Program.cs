@@ -35,7 +35,7 @@ namespace CodeAnalysisTool
 
             var root = (CompilationUnitSyntax)tree.GetRoot();
 
-            foreach(var us in root.Usings)
+            foreach (var us in root.Usings)
             {
                 Console.WriteLine(us.ToString());
             }
@@ -49,6 +49,9 @@ namespace CodeAnalysisTool
             var mainDeclaration = (MethodDeclarationSyntax)programDeclaration.Members[0];
 
             var argsParameter = mainDeclaration.ParameterList.Parameters[0];
+
+
+            Console.WriteLine($@"Il metodo {mainDeclaration.Identifier} ha il parametro {argsParameter.Identifier} di tipo {argsParameter.Type} e restituisce {mainDeclaration.ReturnType}");
         }
     }
 }
