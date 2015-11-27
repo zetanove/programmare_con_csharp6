@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24606.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynTest", "RoslynTest.csproj", "{0E06A249-23A3-4EE0-9633-3B603B4EFA05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyntaxAPI", "..\SyntaxAPI\SyntaxAPI.csproj", "{DADCFFFC-8F84-4F6B-97D4-A24884E0F518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E06A249-23A3-4EE0-9633-3B603B4EFA05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E06A249-23A3-4EE0-9633-3B603B4EFA05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E06A249-23A3-4EE0-9633-3B603B4EFA05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E06A249-23A3-4EE0-9633-3B603B4EFA05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DADCFFFC-8F84-4F6B-97D4-A24884E0F518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADCFFFC-8F84-4F6B-97D4-A24884E0F518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADCFFFC-8F84-4F6B-97D4-A24884E0F518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADCFFFC-8F84-4F6B-97D4-A24884E0F518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
