@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Commenti
+namespace SintassiBase
 {
     class Program
     {
@@ -23,6 +23,21 @@ namespace Commenti
              */
 
             /* commento delimitato */
+
+            //dichiarazioni di variabili
+            int numero; //ok
+            int _numero; //ok
+            int numero1; //ok
+            string straße; //ok
+            string état = "état"; //ok
+
+            //errore, non può iniziare per numero
+            //int 1numero; 
+
+            //un tipo primitivo è un oggetto
+            int i = 123;
+            string str = i.ToString(); //restituisce la sequenza di caratteri "123"
+
 
         }
     }

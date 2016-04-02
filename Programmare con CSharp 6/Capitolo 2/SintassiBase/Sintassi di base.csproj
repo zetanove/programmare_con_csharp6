@@ -7,8 +7,8 @@
     <ProjectGuid>{EE2C53E8-DA2D-412F-8A45-2D3B10BA47AA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Commenti</RootNamespace>
-    <AssemblyName>Commenti</AssemblyName>
+    <RootNamespace>SintassiBase</RootNamespace>
+    <AssemblyName>SintassiBase</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

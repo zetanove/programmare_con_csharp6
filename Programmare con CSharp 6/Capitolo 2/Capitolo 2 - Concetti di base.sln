@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainMultipli", "MainMultipl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using", "Using\Using.csproj", "{05F8B98D-1BF9-4F8E-8556-C1CFD8648103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commenti", "Commenti\Commenti.csproj", "{EE2C53E8-DA2D-412F-8A45-2D3B10BA47AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintassi di base", "SintassiBase\Sintassi di base.csproj", "{EE2C53E8-DA2D-412F-8A45-2D3B10BA47AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
