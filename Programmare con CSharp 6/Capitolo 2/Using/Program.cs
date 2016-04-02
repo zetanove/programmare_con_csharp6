@@ -14,6 +14,8 @@ namespace Using
             Clear();
             ForegroundColor = ConsoleColor.Blue;
             Write(" Hello World");
+
+            WriteLine("Uso la classe Console2");
             ReadKey();
         }
     }
@@ -25,7 +27,7 @@ namespace Nuovo
     {
         public static void WriteLine(string a)
         {
-
+            System.Console.WriteLine("Console2.WriteLine("+a+")");
         }
     }
 }

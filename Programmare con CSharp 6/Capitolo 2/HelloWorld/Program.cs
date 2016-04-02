@@ -7,10 +7,8 @@ namespace HelloWorld
     {
         public static void Main(string[] args)
         {
-           
             //Stampa la stringa Hello World
             Console.WriteLine("Hello World");
-            
         }
     }
 }
