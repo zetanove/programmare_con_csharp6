@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using", "Using\Using.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintassi di base", "SintassiBase\Sintassi di base.csproj", "{EE2C53E8-DA2D-412F-8A45-2D3B10BA47AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirettivePreprocessore", "DirettivePreprocessore\DirettivePreprocessore.csproj", "{51932DEA-CC4C-4F8A-89A9-9D96F2164752}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EE2C53E8-DA2D-412F-8A45-2D3B10BA47AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE2C53E8-DA2D-412F-8A45-2D3B10BA47AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE2C53E8-DA2D-412F-8A45-2D3B10BA47AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51932DEA-CC4C-4F8A-89A9-9D96F2164752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51932DEA-CC4C-4F8A-89A9-9D96F2164752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51932DEA-CC4C-4F8A-89A9-9D96F2164752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51932DEA-CC4C-4F8A-89A9-9D96F2164752}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
