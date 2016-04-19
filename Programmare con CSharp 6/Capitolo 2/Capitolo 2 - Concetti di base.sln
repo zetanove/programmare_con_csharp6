@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintassi di base", "Sintass
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirettivePreprocessore", "DirettivePreprocessore\DirettivePreprocessore.csproj", "{51932DEA-CC4C-4F8A-89A9-9D96F2164752}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsempiConsole", "EsempiConsole\EsempiConsole.csproj", "{2B8B062E-2DBD-4DF3-946C-88C1B11175E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametriDaPrompt", "ParametriDaPrompt\ParametriDaPrompt.csproj", "{278AD0B5-EA37-4C69-9E2D-EB5955E10840}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{51932DEA-CC4C-4F8A-89A9-9D96F2164752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51932DEA-CC4C-4F8A-89A9-9D96F2164752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51932DEA-CC4C-4F8A-89A9-9D96F2164752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8B062E-2DBD-4DF3-946C-88C1B11175E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8B062E-2DBD-4DF3-946C-88C1B11175E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8B062E-2DBD-4DF3-946C-88C1B11175E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8B062E-2DBD-4DF3-946C-88C1B11175E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278AD0B5-EA37-4C69-9E2D-EB5955E10840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278AD0B5-EA37-4C69-9E2D-EB5955E10840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278AD0B5-EA37-4C69-9E2D-EB5955E10840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278AD0B5-EA37-4C69-9E2D-EB5955E10840}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
