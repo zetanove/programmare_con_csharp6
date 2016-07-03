@@ -43,7 +43,18 @@ namespace Classi
             // la prossima scatenerebbe eccezione null reference
             //Console.WriteLine("{0} Hide", mrHide.name);
 
+            //istanza di una classe
             Point p = new Point();
+
+            //accesso ai membri di un oggetto
+            string str = "hello world";
+            int lunghezza = str.Length; //restituisce 11
+            bool b = str.Contains("world"); //restituisce true
+            Console.WriteLine(b);
+
+            str = null;
+            //se l'oggetto è null errore!
+            //lunghezza = str.Length; 
         }
     }
 }
