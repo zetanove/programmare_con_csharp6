@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Progrmmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 3: le enumerazioni
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
