@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Progrmmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 3: tipi e conversioni
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -35,8 +40,7 @@ namespace TypeConversions
             //Console.WriteLine("{0} + {1} = {2}", by1, by2, Convert.ToByte(by1 + by2));
 
             
-
-
+            //la classe Convert
             string str = "123";
             int i1 = Convert.ToInt32(str);
             double d1 = Convert.ToDouble(str);

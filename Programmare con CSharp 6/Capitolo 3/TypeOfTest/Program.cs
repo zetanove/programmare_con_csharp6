@@ -22,8 +22,10 @@ namespace TypeOfTest
             Console.WriteLine(t1.FullName);
             Console.WriteLine(t2.FullName);
 
-            //verifico se il tipo è primitivo
+            //verifico se il tipo è primitivo, decimal non lo è
             Console.WriteLine(typeof(decimal).IsPrimitive);
+
+            Console.ReadLine();
         }
     }
 }
