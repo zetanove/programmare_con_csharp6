@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatori", "Operatori\Operatori.csproj", "{27C0C884-49F7-43E4-8BC3-A06875ADCD49}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promozioni Numeriche", "PromozioniNumeriche\Promozioni Numeriche.csproj", "{5E401F35-141E-4F34-935A-F057DC451A61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{27C0C884-49F7-43E4-8BC3-A06875ADCD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C0C884-49F7-43E4-8BC3-A06875ADCD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C0C884-49F7-43E4-8BC3-A06875ADCD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E401F35-141E-4F34-935A-F057DC451A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E401F35-141E-4F34-935A-F057DC451A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E401F35-141E-4F34-935A-F057DC451A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E401F35-141E-4F34-935A-F057DC451A61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
