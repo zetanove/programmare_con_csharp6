@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incremento Decremento", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckedUnchecked", "CheckedUnchecked\CheckedUnchecked.csproj", "{ABAD7335-46AC-4AC7-8B6E-97F5AE1FA0E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullConditional", "NullConditional\NullConditional.csproj", "{76772CB5-0755-429F-B647-79957D22B257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{ABAD7335-46AC-4AC7-8B6E-97F5AE1FA0E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAD7335-46AC-4AC7-8B6E-97F5AE1FA0E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAD7335-46AC-4AC7-8B6E-97F5AE1FA0E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76772CB5-0755-429F-B647-79957D22B257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76772CB5-0755-429F-B647-79957D22B257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76772CB5-0755-429F-B647-79957D22B257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76772CB5-0755-429F-B647-79957D22B257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
