@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatori", "Operatori\Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promozioni Numeriche", "PromozioniNumeriche\Promozioni Numeriche.csproj", "{5E401F35-141E-4F34-935A-F057DC451A61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatori Aritmetici", "Operatori Aritmetici\Operatori Aritmetici.csproj", "{4C676A56-4160-461F-BF96-03B4CA948606}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5E401F35-141E-4F34-935A-F057DC451A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E401F35-141E-4F34-935A-F057DC451A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E401F35-141E-4F34-935A-F057DC451A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C676A56-4160-461F-BF96-03B4CA948606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C676A56-4160-461F-BF96-03B4CA948606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C676A56-4160-461F-BF96-03B4CA948606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C676A56-4160-461F-BF96-03B4CA948606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
