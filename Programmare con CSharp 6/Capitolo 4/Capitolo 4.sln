@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Promozioni Numeriche", "Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operatori Aritmetici", "Operatori Aritmetici\Operatori Aritmetici.csproj", "{4C676A56-4160-461F-BF96-03B4CA948606}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incremento Decremento", "Incremento Decremento\Incremento Decremento.csproj", "{D9F0A603-E948-43E5-9099-1A27448B76B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4C676A56-4160-461F-BF96-03B4CA948606}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C676A56-4160-461F-BF96-03B4CA948606}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C676A56-4160-461F-BF96-03B4CA948606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F0A603-E948-43E5-9099-1A27448B76B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F0A603-E948-43E5-9099-1A27448B76B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F0A603-E948-43E5-9099-1A27448B76B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F0A603-E948-43E5-9099-1A27448B76B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
