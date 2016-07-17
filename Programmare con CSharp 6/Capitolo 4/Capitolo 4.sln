@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeOperators", "TypeOperat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomandeRiepilogo", "DomandeRiepilogo\DomandeRiepilogo.csproj", "{5AABEE44-E0E7-456A-909D-53F19AC5A8FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullCoalescing", "NullCoalescing\NullCoalescing.csproj", "{B177E80C-78A1-416D-B6DF-0B5E353A3FAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{5AABEE44-E0E7-456A-909D-53F19AC5A8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AABEE44-E0E7-456A-909D-53F19AC5A8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AABEE44-E0E7-456A-909D-53F19AC5A8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B177E80C-78A1-416D-B6DF-0B5E353A3FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B177E80C-78A1-416D-B6DF-0B5E353A3FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B177E80C-78A1-416D-B6DF-0B5E353A3FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B177E80C-78A1-416D-B6DF-0B5E353A3FAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
