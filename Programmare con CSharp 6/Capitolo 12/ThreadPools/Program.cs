@@ -1,7 +1,7 @@
 ﻿/*
  * Programmare con C# 6 guida completa
  * Autore: Antonio Pelleriti
- * Capitolo 12: await in catch (C# 6)
+ * Capitolo 12: threadpool
  */
 
  using System;
