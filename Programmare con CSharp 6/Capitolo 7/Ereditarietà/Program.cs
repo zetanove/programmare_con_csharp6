@@ -1,9 +1,10 @@
-﻿using System;
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 6: ereditarietà
+ */
+
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Cap7_Inheritance
 {
@@ -21,7 +22,7 @@ namespace Cap7_Inheritance
 
             StreetVehicle sv1= new StreetVehicle(2);
             sv1.PrintInfo();
-            //sv1.currentSpeed = 0;//Error
+            //sv1.currentSpeed = 0;//Errore, campo non accessibile
 
             Car car = new Car();
             car.Accendi();
