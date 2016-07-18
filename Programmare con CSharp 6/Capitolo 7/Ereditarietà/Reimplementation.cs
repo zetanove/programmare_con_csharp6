@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 7: reimplementazione interfacce
+ */
 
-namespace Cap7_Inheritance
+using System;
+
+namespace Capitolo7
 {
     interface IDocument
     {

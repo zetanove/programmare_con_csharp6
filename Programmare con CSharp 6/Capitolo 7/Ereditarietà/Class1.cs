@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Cap7_Inheritance
+namespace Capitolo7
 {
     public class Class1
     {

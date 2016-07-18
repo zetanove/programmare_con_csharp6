@@ -6,7 +6,7 @@
 
 using System.Collections;
 
-namespace Cap7_Inheritance
+namespace Capitolo7
 {
     class Program
     {

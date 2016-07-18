@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 7: ereditarietà interfacce
+ */
 
-namespace Cap7_Inheritance
+using System;
+
+
+namespace Capitolo7
 {
 
     public interface ICruiseControl

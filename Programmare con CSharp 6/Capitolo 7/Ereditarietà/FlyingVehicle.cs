@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cap7_Inheritance
+namespace Capitolo7
 {
     public abstract class FlyingVehicle: Vehicle
     {

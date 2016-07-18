@@ -113,7 +113,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TipiParziali", "Capitolo 6\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Capitolo 7", "Capitolo 7", "{AC6D73C8-9415-40F7-BA17-DB3E2F835153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ereditarietà", "Capitolo 7\Ereditarietà\Ereditarietà.csproj", "{94A8BD83-1845-4824-9120-8469F2255900}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ereditarietà Polimorfismo", "Capitolo 7\Ereditarietà\Ereditarietà Polimorfismo.csproj", "{94A8BD83-1845-4824-9120-8469F2255900}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
