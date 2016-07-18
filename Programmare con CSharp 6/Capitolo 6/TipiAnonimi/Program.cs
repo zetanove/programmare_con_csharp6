@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 6: tipi anonimi
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

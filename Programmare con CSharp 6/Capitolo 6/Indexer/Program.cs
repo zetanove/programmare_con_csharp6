@@ -1,4 +1,10 @@
-﻿namespace Indexer
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 6: indicizzatori
+ */
+
+namespace Indexer
 {
     public class Smartphone
     {

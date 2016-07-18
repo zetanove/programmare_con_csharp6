@@ -9,7 +9,10 @@ namespace TipiInnestati
     public class SmartPhone
     {
         private string modello;
-        private class Battery
+
+        internal Battery battery;
+
+        internal class Battery
         {
             private SmartPhone phone;
             internal Battery(SmartPhone phone)
@@ -25,7 +28,27 @@ namespace TipiInnestati
                     return "Batteria per modello " + phone.modello;
                 }
             }
-            private double percentualeCarica;
+
+            public LivelloBatteria Livello
+            {
+                get
+                {
+                    if (PercentualeCarica == 0)
+                        return LivelloBatteria.zero;
+                    else if (PercentualeCarica < 30)
+                        return LivelloBatteria.basso;
+                    else if (PercentualeCarica < 60)
+                        return LivelloBatteria.medio;
+                    else if (PercentualeCarica < 99)
+                        return LivelloBatteria.alto;
+                    else return LivelloBatteria.totale;
+
+                }
+            }
+
+
+            public double PercentualeCarica { get; set; }
+
             public enum LivelloBatteria { zero, basso, medio, alto, totale }
         }
     }

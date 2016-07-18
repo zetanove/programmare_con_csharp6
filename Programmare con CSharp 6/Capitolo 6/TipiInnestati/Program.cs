@@ -1,8 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 6: tipi nested
+ */
+
+using System;
 
 namespace TipiInnestati
 {
@@ -11,6 +13,8 @@ namespace TipiInnestati
     {
         static void Main(string[] args)
         {
+            SmartPhone sp = new SmartPhone();
+            Console.WriteLine(sp.battery.PercentualeCarica);
         }
     }
 }
