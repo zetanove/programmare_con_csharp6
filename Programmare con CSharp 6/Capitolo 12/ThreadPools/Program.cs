@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 12: await in catch (C# 6)
+ */
+
+ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
