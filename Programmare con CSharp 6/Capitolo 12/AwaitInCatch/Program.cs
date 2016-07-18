@@ -1,7 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 12: await in catch (C# 6)
+ */
+
+
+using System;
 using System.Threading.Tasks;
 
 namespace AwaitInCatch
@@ -28,7 +32,7 @@ namespace AwaitInCatch
             }
             catch (Exception ex)
             {
-                await logger.LogAsync(ex);
+                await logger.LogAsync(ex); //in C# 6 è possibile
             }
         }
     }

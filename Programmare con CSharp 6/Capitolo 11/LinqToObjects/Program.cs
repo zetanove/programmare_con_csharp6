@@ -24,9 +24,7 @@ namespace LinqToObjects
             //from select
             var carQuery = from car in teams
                            select car;
-
-
-
+            
             SimpleQuery();
             Projection();
             LetClause();
