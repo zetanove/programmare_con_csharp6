@@ -1,9 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿/*
+ * Programmare con C# 6 guida completa
+ * Autore: Antonio Pelleriti
+ * Capitolo 8: lanciare eccezioni
+ */
+
+using System;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LanciareEccezioni
 {
