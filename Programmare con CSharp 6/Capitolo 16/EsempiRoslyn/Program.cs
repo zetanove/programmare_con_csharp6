@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 using System.Collections.Immutable;
 
-namespace RoslynTest
+namespace EsempiRoslyn
 {
     class Program
     {
@@ -70,7 +70,7 @@ namespace RoslynTest
             var script = CSharpScript.Create("int x=2;int y=x*x; y");
             Console.WriteLine(script.Code);
             var errors = script.Build();
-            Compilation compilation=script.GetCompilation();
+            Compilation compilation = script.GetCompilation();
             var result = await script.RunAsync();
         }
 
@@ -79,9 +79,9 @@ namespace RoslynTest
             var script = CSharpScript.Create("int x=1;")
                 .ContinueWith("int y=2;")
                 .ContinueWith("int z=x+y;")
-                .ContinueWith("z");               
+                .ContinueWith("z");
 
-            var result=await script.RunAsync();
+            var result = await script.RunAsync();
             Console.WriteLine(result.ReturnValue);
 
             var state = await CSharpScript.RunAsync("int x=1;");
@@ -99,7 +99,7 @@ namespace RoslynTest
         public static async void UseScriptOptions()
         {
             ScriptOptions scriptOptions = ScriptOptions.Default;
-            
+
             var systemCore = typeof(System.Linq.Enumerable).Assembly;
             //Aggiunge riferimento
             scriptOptions = scriptOptions.AddReferences(systemCore);
@@ -110,7 +110,7 @@ namespace RoslynTest
 
             var state = await CSharpScript.RunAsync(@"var list = new List<int>(){1,2,3,4,5};", scriptOptions);
             state = await state.ContinueWithAsync("var sum = list.Sum();");
-            var sum=state.Variables.FirstOrDefault(v => v.Name == "sum");
+            var sum = state.Variables.FirstOrDefault(v => v.Name == "sum");
             Console.WriteLine(sum.Value);
         }
 
