@@ -14,7 +14,8 @@ namespace Indexer
             public int Number { get; set; }
         }
 
-        private TelephoneNumber[] numeri;
+        //contiene una rubrica di 10 numeri!
+        private TelephoneNumber[] numeri = new TelephoneNumber[10];
 
         public TelephoneNumber this[int index]
         {
@@ -47,6 +48,9 @@ namespace Indexer
         static void Main(string[] args)
         {
             Smartphone sp = new Smartphone();
+            //crea il primo numero
+            sp[0] = new Smartphone.TelephoneNumber() { Nome="Antonio", Number=1234 };
+            //legge il primo numero
             Smartphone.TelephoneNumber primo = sp[0];
         }
     }
