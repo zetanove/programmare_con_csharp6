@@ -3,7 +3,6 @@ Esempi del libro Programmare con C# 6 Guida Completa
 
 
 
-ultimo aggiornamento 19 luglio 2016.
 
 
 
